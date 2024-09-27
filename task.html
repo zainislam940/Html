@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+</head>
+<body>
+    <main>
+        <div>
+        <h1>COLLEGE ADMISSON FORM</h1>
+        <h2>enter your admission information below</h2>
+        <form action="form.php">
+            <h2>name</h2>
+                <input type="text"> <input type="text"> <input type="text">  
+            <h4>BIRTH DATE</h4>
+         
+<select id="month" name="month" required>
+    <option value="" disabled selected>Select a month</option>
+    <option value="january">january</option>
+    <option value="feburary">feburary</option>
+    <option value="march">march</option>
+    <option value="april">april</option>
+</select>
+             <input type="text " placeholder="please select a day">
+<select id="day" name="day" required>
+    <option value="" disabled selected>Select a day</option>
+    <option value="MONDAY">monday</option>
+    <option value="tuesday">tuesday</option>
+    <option value="wednesday">wednesday</option>
+    <option value="thursday">thursday</option>
+    <option value="friday">friday</option>
+</select>
+
+             <input type="text" placeholder="please select a year">
+             <label for="year">select a year</label>
+<select id="year" name="year" required>
+    <option value="" disabled selected>Select a year</option>
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+</select>
+
+            </select>
+            <h3>GENDER</h3>             
+            <label for="maleid">
+                <input type="radio" name="male"value="male a" id="maleid">MALE
+            </label>
+            <label for="femaleid">
+                <input type="radio" name="female"value="female b" id="femaleid">FEMALE
+            </label>
+            <h3>of which country are you a citizen</h3>
+            <input type="text"placeholder="please select ">
+            <h4>PHONE</h4><input type="text" placeholder="(000) 000_0000">
+            <h4>E-mail address</h4><input type="text"placeholder="current e-mail">
+            <h5>Malling address</h5>
+            <input type="text">
+            <h5>street address</h5>
+            <input type="text">
+            <h5>street address line 2</h5>
+            <input type="text"> <input type="text">
+            <h5>city</h5>
+            <input type="text"><br>
+            <caption>postal/zipcode</caption>
+            <h2>Emergency contact</h2>
+            <input type="text"> <input type="text">
+            <h3>Relationship</h3>
+            <input type="text">
+            <h2>Email</h2>
+            <input type="text"><br>
+            <caption>example@example .com</caption>
+            <h3>phone Number</h3>
+            <input type="text"><br>
+            <caption>please enter a valid phone Number</caption>
+            <h3>DO you speak any languages other than English?</h3>
+            <label for="yes">
+                <input type="radio">yes
+            </label>&ensp;  &emsp;
+            <label for="no">
+                <input type="radio">no
+            </label>
+            <h6>please list item</h6>
+            <textarea name="explain" id="expplain"cols="30"rows="10"></textarea>
+            <h2>Education</h2>
+            <h3>High School Equivalent Name</h3>
+            <input type="text"><br>
+            <h3>Graduation</h3>
+            <label for="date"></label>
+            <input type="text"placeholder="mm-dd-yyyy"><br>
+            <caption>Date</caption>
+            <h2>School Address</h2>
+            <input type="text"> <input type="text">
+             <select name="no country" id="select your country">
+                <option value="no country">select your country</option>
+                <option value="pakistan">pakistan</option>
+                <option value="india">india</option>
+                <option value="dubai">dubai</option>
+                
+            </select><br><br><br><br>
+            <button type="back">back</button>
+            <button type="next">next</button>
+            <h3>APPLICATION FEE</h3> 
+            <P>payment is due 3 days prior to the start of the class</P>  
+             <h5>payment method:</h5>
+             <label for="credit card">
+                <input type="checkbox">credit card
+             </label>&nbsp;
+              <label for="mall a check ">
+                <input type="checkbox">Mall a check
+              </label>&nbsp;
+              <label for="in person at school">
+                <input type="checkbox">In_person at school
+              </label><br><br><br>
+              <button type="submit">submit application</button>
+            
+    </main>
+</body>
+</html>
