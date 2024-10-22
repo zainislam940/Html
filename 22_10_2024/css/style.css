@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --main-bg-color: brown;
+}
+ *{
+    margin: 0;
+    padding: 0;
+  }
+header{
+   
+  background-color: var(--main-bg-color);
+  font-family: Roboto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+
+}
+nav ul li{
+   list-style: none;
+   padding: 0 23px;
+   display: flex;
+}
+nav ul li a{
+    color: white;
+    display: flex;
+    
+}
+nav ul li a:hover{
+    color: rgb(233, 186, 186);
+   font-weight: bolder;
+}
+.search{
+    display: flex;
+    justify-content: center;
+      
+  
+
+}
+.search input{
+    border-radius: 6px;
+    width: 493px;
+    height: 23px;
+  
+}
+.card{
+    background-color: rgb(192, 201, 201);
+    margin: auto;
+    width: 80vw;
+}
+.card h2{
+    font-family: Roboto;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.slider{
+    margin: 12px auto;
+    width:58vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+footer{
+    height: 12vh;
+    background-color: var( --main-bg-color);
+    color: white;
+    font-family: Roboto;
+ }

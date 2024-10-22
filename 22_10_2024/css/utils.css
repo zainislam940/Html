@@ -1,0 +1,13 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+my-2{
+    text-align: center;
+}

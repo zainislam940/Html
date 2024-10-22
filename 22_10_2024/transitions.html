@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .container{
+            height: 500px;
+            background-color: red;
+        }
+        img{
+          width:  146px;
+          transition-property: width;
+          transition-duration: 3s;
+          transition-timing-function: ease-in;
+        }
+        img:hover{
+            width: 70px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="my image" src="premium_photo-1673736135918-ea8e890b8f7a.avif" alt="">
+            <button id="btn">toggle</button>
+            
+        </div>
+    </div>
+</body>
+<script>
+     my image.style.width="146px"
+    btn.addEventlistner("click",()=>{
+        if(  my image.style.width==="546px")
+        my image.style.width ="146px";
+    }
+    else if(  my image.style.width==="546px")
+    my image.style.width="146px";
+
+           }  )
+</script>
+</html>

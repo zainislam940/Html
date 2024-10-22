@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1 ;
+        }
+        header{
+            height: 122px;
+            background-color: black;
+        }
+        main{
+            height: 899px;
+            background-color: blue;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 60vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+            @keyframes rotate {
+            0%{
+              transform: rotate (0 deg);
+            }
+           
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes slide1 {
+            0%{
+              transform:translate(-22vw)
+            }
+           
+            100%{
+                transform: translate(60vw);
+            }
+        }
+        @keyframes slide2 {
+            0%{
+              transform: translate(20vw) 
+            }
+           
+            100%{
+                transform: translate(100vw);
+            }
+        }
+        img{
+          display: flex;
+          margin: auto;
+        }
+        .slider{
+            background-color: white;
+            height: 500px;
+            display: flex;
+            
+            overflow: hidden;
+            margin: auto;
+            justify-content: center;
+        }
+        .img1{
+            transform: translate(-22vw);
+            animation: slide1  2s  2s forwards;
+        }
+        .img2{
+            transform: translate(0vw);
+            animation: slide1  1s  2s forwards;
+        }
+        
+        .img3{
+            transform: translate(22vw);
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main>
+        <!-- <img src="premium_photo-1673736135918-ea8e890b8f7a.avif" alt="" width="150px"> -->
+         <div class="slider">
+             <img class="img1" src="img19.jpg" alt="">
+             <img class="img2" src="img19.jpg" alt="">
+             <img class="img3" src="img19.jpg" alt="">
+         </div>
+    </main>
+    
+</body>
+</html>
